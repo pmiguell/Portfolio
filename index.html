@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Pedro Miguel</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h3>
+        <span class="destaque"><</span> pedromiguel
+        <span class="destaque">/></span>
+      </h3>
+      <nav class="navigation">
+        <ul class="nav-items">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#techs">Tecnologias</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+      <img id="open-menu" src="./img/menu.svg" alt="" />
+    </header>
+
+    <nav class="navigation-responsive">
+      <ul class="nav-items-responsive">
+        <img id="close-menu" src="./img/close.svg" alt="Cancel Icon" />
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#techs">Tecnologias</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div id="home" class="home-content">
+        <h3>Olá, meu nome é</h3>
+        <h1 class="destaque">Pedro Miguel</h1>
+        <h2>Desenvolvedor <span class="destaque">Web</span></h2>
+        <p>
+          É um prazer ter você por aqui! Fique à vontade para conhecer melhor
+          sobre minha vida profissional
+        </p>
+        <div class="buttons">
+          <a href="curriculo.pdf" download="Curriculo_Pedro_Miguel.pdf">Baixar currículo</a>
+          <a href="https://api.whatsapp.com/send/?phone=5516981788440">Dizer olá!</a>
+        </div>
+      </div>
+      <img src="./img/me.jpg" alt="Foto de Pedro Miguel" />
+    </main>
+
+    <section id="about" class="about-section">
+      <h2 class="destaque">Um pouco sobre mim</h2>
+      <ul>
+        <li>
+          Graduando em <span class="destaque">Sistemas de Informação</span> na
+          Universidade Federal de Uberlândia (UFU)
+        </li>
+        <li>Experiência com projetos Front-end</li>
+        <li>
+          Interesse em aprender tecnologias Back-end para me tornar
+          <span class="destaque">Full-stack</span>
+        </li>
+        <li>Membro do <span class="destaque">PET-SI</span> na UFU</li>
+      </ul>
+    </section>
+
+    <section id="techs" class="techs-section">
+      <h2 class="destaque">Linguagens e tecnologias</h2>
+      <p>Aqui estão algumas linguagens e tecnologias que estudo</p>
+      <div class="cards-tech">
+        <div class="card-tech">
+          <img src="./img/html.svg" alt="" />
+          <h3>HTML</h3>
+        </div>
+        <div class="card-tech">
+          <img src="./img/css.svg" alt="" />
+          <h3>CSS</h3>
+        </div>
+        <div class="card-tech">
+          <img src="./img/javascript.svg" alt="" />
+          <h3>JavaScript</h3>
+        </div>
+        <div class="card-tech">
+          <img src="./img/reactjs.svg" alt="" />
+          <h3>React.js</h3>
+        </div>
+        <div class="card-tech">
+          <img src="./img/bootstrap.svg" alt="" />
+          <h3>Bootstrap</h3>
+        </div>
+        <div class="card-tech">
+          <img src="./img/sass.svg" alt="" />
+          <h3>Sass</h3>
+        </div>
+        <div class="card-tech">
+          <img src="./img/git.svg" alt="" />
+          <h3>Git</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2 class="destaque">Projetos</h2>
+      <p>
+        Aqui estão os projetos que estou desenvolvendo atualmente. Caso tenha se
+        interessado em conhecê-los, basta clicar no card!
+      </p>
+
+      <div class="projects">
+        <a href="#">
+          <div class="project" id="project-1">
+            <h1>Sistema Web de Clínica Médica</h1>
+            <div class="techs-used">
+              <img src="./img/html.svg" alt="HTML Icon" />
+              <img src="./img/css.svg" alt="CSS Icon" />
+              <img src="./img/javascript.svg" alt="JavaScript Icon" />
+              <img src="./img/bootstrap.svg" alt="Bootstrap Icon" />
+              <img src="./img/php.png" alt="PHP Icon" />
+              <img src="./img/mysql.png" alt="MySQL Icon" />
+            </div>
+          </div>
+        </a>
+        <a href="https://github.com/pmiguell/MovieCatalog" target="_blank"><div class="project" id="project-2">
+          <h1>Catálogo de Filmes</h1>
+          <div class="techs-used">
+            <img src="./img/reactjs.svg" alt="React Icon" />
+            <img src="./img/css.svg" alt="CSS Icon" />
+          </div>
+        </div></a>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2 class="destaque">Contatos</h2>
+      <div class="cards-contact">
+        <div class="card-contact">
+          <a href="mailto:p_miguel2004@hotmail.com"
+            ><img src="./img/email.svg" alt="Email Icon"
+          /></a>
+          <h4>E-mail</h4>
+        </div>
+        <div class="card-contact">
+          <a
+            href="https://www.linkedin.com/in/pedro-miguel-b042b924a/"
+            target="_blank"
+            ><img src="./img/linkedin.svg" alt="Linkedin Icon"
+          /></a>
+          <h4>LinkedIn</h4>
+        </div>
+        <div class="card-contact">
+          <a href="https://github.com/pmiguell" target="_blank"
+            ><img src="./img/github.svg" alt="Email Icon"
+          /></a>
+          <h4>GitHub</h4>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright © 2024 por Pedro Miguel. Todos os direitos reservados.</p>
+    </footer>
+
+    <div id="modal-area" class="modal">
+      <div class="modal-content">
+        <div class="top-modal">
+          <div class="tech-icon-name">
+            <img src="./img/html.svg" alt="HTML Icon" id="tech-icon" />
+            <h2 class="destaque" id="tech-name">HTML</h2>
+          </div>
+          <button id="close-modal">
+            <img src="./img/close.svg" alt="Close Icon" />
+          </button>
+        </div>
+        <p id="tech-description"></p>
+      </div>
+    </div>
+  </body>
+</html>
