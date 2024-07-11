@@ -91,7 +91,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8rem;
+    padding: 12rem 8rem;
 }
 
 .home-content h3{
