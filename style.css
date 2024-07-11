@@ -20,8 +20,8 @@ header{
     right: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem 8rem;
+    justify-content: space-around;
+    padding: 0.5rem 0;
     color: #c7c7c7;
 }
 
@@ -90,8 +90,8 @@ header{
 main{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 12rem 8rem;
+    justify-content: space-evenly;
+    padding: 12rem 10rem;
 }
 
 .home-content h3{
@@ -111,7 +111,7 @@ main{
 
 .home-content p{
     line-height: 1.5rem;
-    width: 70%;
+    width: 75%;
     color: #c7c7c7;
     margin-bottom: 2.5rem;
 }
