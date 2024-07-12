@@ -69,7 +69,7 @@ techCards.forEach((card, index) => card.addEventListener('click', () => {
     modalTechName.textContent = selectedTech.name;
     modalTechDescription.textContent = selectedTech.description;
     modal.style.display = 'flex'
-}))
+}));
 
 closeModal.addEventListener('click', () => {
     modal.style.display = 'none';
@@ -84,4 +84,19 @@ window.addEventListener('scroll', () => {
     } else {
         header.style.backgroundColor = "#13131F"
     }
+});
+
+//
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('init-hidden-off');
+        }
+    });
+}, {
+    threshold: [0.5] // Ajuste o threshold conforme necessário
+});
+
+document.querySelectorAll('.init-hidden').forEach(element => {
+    observer.observe(element);
 });
