@@ -31,7 +31,7 @@ header{
     right: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0.5rem 0;
     color: #c7c7c7;
     z-index: 9999;
@@ -431,6 +431,11 @@ footer p{
     #open-menu{
         display: flex;
     }
+
+    header {
+        justify-content: space-between;
+        padding: 0.5rem 2rem;
+    }
 }
 
 @media (max-width: 650px){
@@ -444,10 +449,6 @@ footer p{
 }
 
 @media (max-width: 582px){
-    header{
-        padding: 0.5rem 4rem;
-    }
-
     main{
         padding: 8rem 4rem;
     }
@@ -482,10 +483,6 @@ footer p{
 }
 
 @media (max-width: 375px) {
-    header{
-        padding: 0.5rem 2rem;
-    }
-
     main{
         padding: 8rem 2rem;
     }
