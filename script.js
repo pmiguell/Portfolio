@@ -48,6 +48,11 @@ const techs = [
         icon: "./img/git.svg",
         description: "Git é um sistema de controle de versão distribuído usado para rastrear as alterações no código-fonte durante o desenvolvimento de software. Ele permite que várias pessoas colaborem em projetos de forma eficiente e controlada."
     },
+    {
+        name: "SQL",
+        icon: "./img/database.svg",
+        description: "SQL (Structured Query Language) é uma linguagem de programação padrão usada para gerenciar e manipular bancos de dados relacionais. Com SQL, você pode consultar, atualizar e gerenciar dados armazenados em bancos de dados."
+    },
 ];
 
 const modal = document.querySelector('.modal');
