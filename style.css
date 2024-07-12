@@ -446,11 +446,10 @@ footer p{
     .about-section p{
         width: 100%;
     }
-}
 
-@media (max-width: 582px){
     main{
-        padding: 8rem 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
 
     .about-section{
@@ -480,10 +479,9 @@ footer p{
         font-size: 1.75rem;
         color: #c7c7c7;
     }
-}
 
-@media (max-width: 375px) {
-    main{
-        padding: 8rem 2rem;
+    main {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
