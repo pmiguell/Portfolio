@@ -1,16 +1,3 @@
-/*Lógica para o menu responsivo
-const responsiveMenu = document.querySelector('.navigation-responsive');
-
-const openMenu = document.querySelector('#open-menu');
-openMenu.addEventListener('click', () => {
-    responsiveMenu.style.left = "0";
-})
-
-const closeMenu = document.querySelector('#close-menu');
-closeMenu.addEventListener('click', () => {
-    responsiveMenu.style.left = "-250px";
-})*/
-
 //Lógica para o menu responsivo
 const responsiveMenu = document.querySelector(".navigation-responsive");
 const openMenu = document.querySelector("#open-menu");
@@ -78,6 +65,12 @@ const techs = [
     description:
       "SQL (Structured Query Language) é uma linguagem de programação padrão usada para gerenciar e manipular bancos de dados relacionais. Com SQL, você pode consultar, atualizar e gerenciar dados armazenados em bancos de dados.",
   },
+  {
+    name: "Figma",
+    icon: "./img/Figma.svg",
+    description:
+      "Figma é uma ferramenta de design de interface baseada na web que permite criar, prototipar e colaborar em projetos de design em tempo real. Com Figma, você pode criar layouts, wireframes e protótipos interativos, facilitando o trabalho em equipe e a iteração rápida.",
+  },
 ];
 
 const modal = document.querySelector(".modal");
@@ -113,7 +106,7 @@ window.addEventListener("scroll", () => {
   }
 });
 
-//
+//Lógica para exibir as seções conforme o scroll
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
@@ -123,7 +116,7 @@ const observer = new IntersectionObserver(
     });
   },
   {
-    threshold: [0.5], // Ajuste o threshold conforme necessário
+    threshold: [0.5],
   }
 );
 
