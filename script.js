@@ -54,16 +54,28 @@ const techs = [
       "Sass é um pré-processador CSS que estende a sintaxe do CSS com características como variáveis, aninhamento de regras e mixins. Ele ajuda a tornar o código CSS mais modular e fácil de manter.",
   },
   {
-    name: "Git",
-    icon: "./img/git.svg",
-    description:
-      "Git é um sistema de controle de versão distribuído usado para rastrear as alterações no código-fonte durante o desenvolvimento de software. Ele permite que várias pessoas colaborem em projetos de forma eficiente e controlada.",
-  },
-  {
     name: "SQL",
     icon: "./img/database.svg",
     description:
       "SQL (Structured Query Language) é uma linguagem de programação padrão usada para gerenciar e manipular bancos de dados relacionais. Com SQL, você pode consultar, atualizar e gerenciar dados armazenados em bancos de dados.",
+  },
+  {
+    name: "Java",
+    icon: "./img/java.svg",
+    description:
+      "Java é uma linguagem de programação orientada a objetos, que é amplamente usada para desenvolver aplicativos de software, sistemas corporativos, aplicativos móveis e web. Ela é conhecida por sua portabilidade e robustez.",
+  },
+  {
+    name: "Spring Boot",
+    icon: "./img/spring-boot.svg",
+    description:
+      "Spring Boot é um framework baseado em Java que simplifica o processo de criação de aplicações web e microserviços. Ele fornece configuração automática e uma série de funcionalidades prontas para uso, permitindo que os desenvolvedores criem aplicativos de forma rápida e eficiente.",
+  },
+  {
+    name: "Git",
+    icon: "./img/git.svg",
+    description:
+      "Git é um sistema de controle de versão distribuído usado para rastrear as alterações no código-fonte durante o desenvolvimento de software. Ele permite que várias pessoas colaborem em projetos de forma eficiente e controlada.",
   },
   {
     name: "Figma",

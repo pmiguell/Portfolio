@@ -188,10 +188,11 @@ main img{
     text-align: center;
 }
 
-.about-section li{
+.about-section p {
     color: #c7c7c7;
-    line-height: 1.75rem;
-    font-size: 18px;
+    width: 50%;
+    margin: 2rem auto;
+    text-align: center;
 }
 
 /*Technologies*/
