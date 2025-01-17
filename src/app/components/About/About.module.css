@@ -1,0 +1,36 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 8rem 0;
+  }
+  
+  .about h2 {
+    font-size: 30px;
+  }
+  
+  .about p {
+    color: #64748b;
+    width: 75%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.75rem;
+  }
+  
+  .socialMediaContainer {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+  
+  .socialMediaContainer a {
+    text-decoration: none;
+    color: #2c2c2c;
+  }
+  
+  @media (max-width: 650px) {
+    .about p {
+      width: 90%;
+    }
+  }  

@@ -1,0 +1,86 @@
+.navList {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .navList li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2c2c2c;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+  }
+  
+  .navBtnDownload {
+    background-color: #3a72ec;
+    color: #fff !important; 
+    border: none;
+    border-radius: 8px;
+    width: 10rem;
+    height: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .navBtnDownload:hover {
+    background-color: #2b5fcf;
+  }
+  
+  .navigation {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
+  
+  .navigation.active {
+    transform: translateX(0);
+  }
+
+  .navigationTop {
+    width: 100%;
+  }
+
+  .menuToggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+    padding: 0;
+    color: #2c2c2c;
+  }
+
+  @media (max-width: 960px) {
+    .navigation {
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100%;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      transform: translateX(100%);
+      box-shadow: -4px 0 10px #ccc;
+      transform: translateX(100vw);
+      padding: 1rem;
+    }
+  
+    .navigation ul {
+      flex-direction: column;
+      align-items: start;
+      padding: 0;
+      gap: 2rem;
+    }
+
+    .menuToggle {
+      display: flex;
+    }
+  }

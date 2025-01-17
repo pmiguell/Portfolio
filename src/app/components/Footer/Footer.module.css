@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  .socialMediaContainerFooter {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .socialMediaContainerFooter a {
+    text-decoration: none;
+    color: #2c2c2c;
+  }
+
+  @media (max-width: 380px) {
+    .footer {
+      text-align: center;
+      padding: 1rem 0.5rem;
+    }
+  
+    .socialMediaContainerFooter {
+      margin: 0 auto;
+    }
+  }  
