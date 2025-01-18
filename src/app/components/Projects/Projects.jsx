@@ -1,8 +1,5 @@
 import ProjectCard from "../ProjectCard/ProjectCard";
 import style from "./Projects.module.css";
-import ThreatLensImage from "../../src/assets/projects-img/ThreatLens.png"
-import TaskManagementImage from "../../src/assets/projects-img/TaskManagement.png"
-import MovieCatalogImage from "../../src/assets/projects-img/MovieCatalog.png"
 
 const projects = [
   {
@@ -16,7 +13,7 @@ const projects = [
       "CSS3",
       "Git/GitHub",
     ],
-    image: ThreatLensImage,
+    image: "../../../assets/projects-img/ThreatLens.png",
     githubLink: "https://github.com/pmiguell/threatlens",
   },
   {
@@ -30,7 +27,7 @@ const projects = [
       "CSS3",
       "Git/GitHub",
     ],
-    image: TaskManagementImage,
+    image: "../../../assets/projects-img/TaskManagement.png",
     githubLink: "#",
   },
   {
@@ -38,7 +35,7 @@ const projects = [
     description:
       "A platform that allows users to explore and access information about various movies and TV shows. It features search and filtering functionalities, provides detailed descriptions, and has an intuitive interface. Developed with a responsive design to ensure accessibility across different devices.",
     techs: ["JavaScript (React)", "CSS3", "Git/GitHub"],
-    image: MovieCatalogImage,
+    image: "../../../assets/projects-img/MovieCatalog.png",
     githubLink: "https://github.com/pmiguell/MovieCatalog",
   },
 ];
