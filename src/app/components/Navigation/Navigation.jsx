@@ -1,6 +1,6 @@
 import { FiX } from "react-icons/fi";
 import style from "./Navigation.module.css";
-import CurriculumVitae from "../../../assets/curriculum-vitae/curriculum-vitae/CV - Pedro Miguel de Paula Silva.docx"
+import CurriculumVitae from "../../../assets/curriculum-vitae/CV - Pedro Miguel de Paula Silva.docx"
 
 const navItems = [
   { name: "Home", link: "#home" },
