@@ -31,7 +31,7 @@ const projects = [
       "Git/GitHub",
     ],
     image: TaskManagementImage,
-    githubLink: "#",
+    githubLink: "https://github.com/pmiguell/to-do-list",
   },
   {
     title: "MovieCatalog",
