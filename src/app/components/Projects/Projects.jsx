@@ -17,7 +17,7 @@ const projects = [
       "Git/GitHub",
     ],
     image: ThreatLensImage,
-    githubLink: "https://github.com/pmiguell/threatlens",
+    githubLink: "https://www.linkedin.com/posts/pmiguell_english-below-ol%C3%A1-pessoal-gostaria-activity-7267346802465546241-EKu0?utm_source=share&utm_medium=member_desktop",
   },
   {
     title: "TaskManagement",
@@ -39,7 +39,7 @@ const projects = [
       "A platform that allows users to explore and access information about various movies and TV shows. It features search and filtering functionalities, provides detailed descriptions, and has an intuitive interface. Developed with a responsive design to ensure accessibility across different devices.",
     techs: ["JavaScript (React)", "CSS3", "Git/GitHub"],
     image: MovieCatalogImage,
-    githubLink: "https://github.com/pmiguell/MovieCatalog",
+    githubLink: "https://www.linkedin.com/posts/pmiguell_english-below-ol%C3%A1-pessoal-estou-activity-7216528138485301248-Pbk7?utm_source=share&utm_medium=member_desktop",
   },
 ];
 
